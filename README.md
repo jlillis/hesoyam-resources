@@ -5,7 +5,8 @@
 Reference the MTA:SA wiki's [server manual](https://wiki.multitheftauto.com/wiki/Server_Manual).
 
 ## Authors
-* jlillis - [Github](https://github.com/jlillis) *Note: some resources contain work by multiple authors - check the resource's README.md for details.*
+*Note: some resources contain work by multiple authors - check the resource README file for details.*
+* jlillis - [Github](https://github.com/jlillis)
 
 ## License
 See [LICENSE.txt](LICENSE.txt).
