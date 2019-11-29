@@ -1,0 +1,5 @@
+<meta>
+	<info author="jlillis" type="script" name="Vendors" version="0.1.0" edf:definition="edf/vendors.edf" />
+
+	<script type="server" src="server/main.lua" />
+</meta>

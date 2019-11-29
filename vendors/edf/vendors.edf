@@ -1,0 +1,58 @@
+<def name="Street Vendors">
+    <element name="sprunk_machine_clean" friendlyname="Sprunk Machine (clean)" instructions="A clean Sprunk machine.">
+        <data name="position" type="coord3d" required="true" default="0,0,0" />
+        <data name="rotation" type="coord3d" required="true" default="0,0,0" />
+        <data name="interior" type="integer" required="true" default="0" />
+        <data name="dimension" type="integer" required="true" default="0" />
+        <object model="1775" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1" posZ="-1.1"  interior="!interior!" dimension="!dimension!" />
+    </element>
+    <element name="sprunk_machine_dirty" friendlyname="Sprunk Machine (dirty)" instructions="A dirty Sprunk machine.">
+        <data name="position" type="coord3d" required="true" default="0,0,0" />
+        <data name="rotation" type="coord3d" required="true" default="0,0,0" />
+        <data name="interior" type="integer" required="true" default="0" />
+        <data name="dimension" type="integer" required="true" default="0" />
+        <object model="955" position="!position!" posZ="0.39" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1"  interior="!interior!" dimension="!dimension!" />
+    </element>
+    <element name="candy_machine_clean" friendlyname="Candy Machine (clean)" instructions="A clean candy machine.">
+    <data name="position" type="coord3d" required="true" default="0,0,0" />
+        <data name="rotation" type="coord3d" required="true" default="0,0,0" />
+        <data name="interior" type="integer" required="true" default="0" />
+        <data name="dimension" type="integer" required="true" default="0" />
+        <object model="1776" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1" posZ="-1.1"  interior="!interior!" dimension="!dimension!" />
+    </element>
+    <element name="candy_machine_dirty" friendlyname="Candy Machine (dirty)" instructions="A dirty candy machine.">
+        <data name="position" type="coord3d" required="true" default="0,0,0" />
+        <data name="rotation" type="coord3d" required="true" default="0,0,0" />
+        <data name="interior" type="integer" required="true" default="0" />
+        <data name="dimension" type="integer" required="true" default="0" />
+        <object model="956" position="!position!" posZ="0.39" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1"  interior="!interior!" dimension="!dimension!" />
+    </element>
+    <element name="soda_machine" friendlyname="Soda Machine" instructions="A generic soda machine (first variant).">
+        <data name="position" type="coord3d" required="true" default="0,0,0" />
+        <data name="rotation" type="coord3d" required="true" default="0,0,0" />
+        <data name="interior" type="integer" required="true" default="0" />
+        <data name="dimension" type="integer" required="true" default="0" />
+        <object model="1209" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1"  interior="!interior!" dimension="!dimension!" />
+    </element>
+    <element name="soda_machine2" friendlyname="Soda Machine" instructions="A generic soda machine (second variant).">
+        <data name="position" type="coord3d" required="true" default="0,0,0" />
+        <data name="rotation" type="coord3d" required="true" default="0,0,0" />
+        <data name="interior" type="integer" required="true" default="0" />
+        <data name="dimension" type="integer" required="true" default="0" />
+        <object model="1302" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1"  interior="!interior!" dimension="!dimension!" />
+    </element>
+    <element name="vending_machine" friendlyname="Snack Machine" instructions="A generic vending machine (warning: missing rear panel texture).">
+        <data name="position" type="coord3d" required="true" default="0,0,0" />
+        <data name="rotation" type="coord3d" required="true" default="0,0,0" />
+        <data name="interior" type="integer" required="true" default="0" />
+        <data name="dimension" type="integer" required="true" default="0" />
+        <object model="1302" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1"  interior="!interior!" dimension="!dimension!" />
+    </element>
+</def>
