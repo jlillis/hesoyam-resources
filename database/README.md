@@ -1,4 +1,4 @@
-# HESOYAM: Database 1.0.0
+# database
 
 This resource provides a simple interface for other resources to retrieve a handle for the server's SQL database. Compatible with MySQL and SQLite databases.
 
