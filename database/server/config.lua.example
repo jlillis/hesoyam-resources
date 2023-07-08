@@ -1,0 +1,9 @@
+-- Server database settings
+_config = {
+    type = "sqlite", -- Database type to use - either 'sqlite' or 'mysql'
+    host = "server.db", -- Database hostname (server IP for MySQL, filename for SQLite)
+    port = 3306, -- Database port (MySQL only)
+    name = "mtasa_db", -- Database schema name (MySQL only)
+    username = "mtasa_server", -- Database username (MySQL only)
+    password = "" -- Database password (MySQL only)
+}
