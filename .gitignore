@@ -8,9 +8,6 @@
 # SQLite database files
 *.db
 
-# ui resource files
-ui/
-
 # Visual Studio Code workspace files
 hesoyam-resources.code-workspace
 

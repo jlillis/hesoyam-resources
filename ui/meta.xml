@@ -1,0 +1,24 @@
+<meta>
+    <info name="ui" version="1.0.0" type="script"/>
+    <oop>true</oop>
+    <include resource="accounts" minversion="1.0.0"/>
+    <include resource="characters" minversion="1.0.0"/>
+
+    <!--script src="client/lib/render.lua" type="client" cache="false"/>
+    <script src="client/lib/UIElement.lua" type="client" cache="false"/>
+    <script src="client/lib/Label.lua" type="client" cache="false"/>
+    <script src="client/lib/Window.lua" type="client" cache="false"/-->
+
+    <script src="client/class.lua" type="client" cache="false"/>
+    <script src="client/main.lua" type="client" cache="false"/>
+    <script src="client/settings.lua" type="client" cache="false"/>
+    <script src="client/theme.lua" type="client" cache="false"/>
+    <script src="client/Gui.lua" type="client" cache="false"/>
+    <script src="client/GuiManager.lua" type="client" cache="false"/>
+    <script src="client/WelcomeScreen.lua" type="client" cache="false"/>
+    <script src="client/CharacterScreen.lua" type="client" cache="false"/>
+
+    <file src="client/fonts/futura-pt-bold.otf"/>
+    <file src="client/fonts/sabankgothic.ttf"/>
+    <file src="client/fonts/saheader.ttf"/>
+</meta>
