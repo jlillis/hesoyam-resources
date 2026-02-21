@@ -1,0 +1,10 @@
+<def name="Characters">
+    <element name="initial-spawnpoint" friendlyname="Initial character spawnpoint" instructions="Initial spawnpoint for new characters.">
+        <data name="position" type="coord3d" required="true" default="0,0,0"/>
+		<data name="rotZ" type="number" required="true" default="0"/>
+		<data name="interior" type="integer" required="true" default="0"/>
+        <data name="dimension" type="integer" required="true" default="0"/>
+
+        <ped editorOnly="true" model="0" position="!position!" rotZ="!rotZ!" interior="!interior!" dimension="!dimension!" />
+    </element>
+</def>

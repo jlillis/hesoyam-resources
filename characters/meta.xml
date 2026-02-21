@@ -1,0 +1,22 @@
+<meta>
+    <info name="characters" version="1.0.0" type="script" edf:definition="edf/characters.edf"/>
+    <include resource="database" minversion="1.0.0"/>
+    <include resource="accounts" minversion="1.0.0"/>
+
+    <!-- Server scripts & export functions -->
+    <script src="server/utils.lua"/>
+    <script src="server/config.lua"/>
+    <script src="server/main.lua"/>
+    <script src="server/requests.lua"/>
+    <script src="server/creation.lua"/>
+    <script src="server/spawn.lua"/>
+
+    <!-- Client scripts & export functions -->
+    <script src="client/main.lua" type="client"/>
+    <script src="client/requests.lua" type="client"/>
+    <script src="client/creation.lua" type="client"/>
+    <script src="client/spawn.lua" type="client"/>
+    <export function="getPlayerCharacterData" type="client"/>
+    <export function="sendSpawnRequest" type="client"/>
+    <export function="sendCreationRequest" type="client"/>
+</meta>

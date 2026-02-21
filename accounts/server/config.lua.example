@@ -1,0 +1,7 @@
+-- Server configuration settings
+_config = {
+    bcrypt_cost = 11, -- bcrypt cost factor
+    lockout_threshold = 5, -- lockout threshold (number of failed logins allowed, -1 to disable lockouts)
+    lockout_duration = 15, -- lockout duration (in minutes)
+    log_level = 1 -- 0 = log nothing, 1 = log successful requests (login, logout, and registration) 2 = log successful requests and failed login attempts
+}

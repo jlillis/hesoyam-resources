@@ -1,0 +1,11 @@
+<meta>
+    <info name="chat" version="1.0.0" type="script"/>
+    <include resource="accounts"/>
+
+    <aclrequest>
+        <right name="function.setPlayerMuted" access="true" />
+    </aclrequest>
+
+    <script src="server/config.lua"/>
+    <script src="server/main.lua"/>
+</meta>

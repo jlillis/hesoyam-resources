@@ -1,0 +1,10 @@
+-- Chat configuration settings
+_config = {
+    error_color = "#C80000", -- color to use for error text in chat
+    info_color = "#465A64", -- color to use for informational text in chat
+    chat_color = "#AFCDF5", -- color to use for chat messages
+    use_nametag_colors = true, -- if true, player names will match their nametag color in chat
+    say_distance = 100, -- distance for chat messages
+    spam_threshold = 5, -- maximum number of messages allowed within spam_cooldown
+    spam_duration = 3, -- minimum time in between consecutive messages, in seconds
+}

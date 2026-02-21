@@ -19,3 +19,44 @@ local function playerRadioSwitch(stationID)
     setElementData(getPedOccupiedVehicle(localPlayer), "radioStation", stationID, true)
 end
 addEventHandler("onClientPlayerRadioSwitch", localPlayer, playerRadioSwitch)
+
+--[[local radioStations = {
+    "Adverts",
+    --"Ambience",
+    --"Police",
+    "Playback FM",
+    "K-Rose",
+    "K-DST",
+    --"Cutscene",
+    "Beats",
+    "Bounce FM",
+    "SF-UR",
+    "Radio Los Santos",
+    "Radio X",
+    "CSR 103.9",
+    "K-Jah West",
+    "Master Sounds 98.3",
+    "WCTR"
+}
+local trackIDs = {}
+local currentTrack = 50
+local currentSFX
+function enumerateRadioTrackIDs()
+    if isElement(currentSFX) then
+        destroyElement(currentSFX)
+    end
+
+    currentSFX = playSFX("radio", "Playback FM", currentTrack, false) 
+    if isElement(currentSFX) then
+        trackIDs[currentTrack] = true
+        currentTrack = currentTrack + 1
+        outputDebugString("Playing track ID: "..currentTrack)
+        outputDebugString(getSoundLength(currentSFX))
+    else
+        outputDebugString("Invalid/max track ID: "..currentTrack)
+        outputDebugString(toJSON(trackIDs))
+    end
+end
+
+
+setTimer(enumerateRadioTrackIDs, 15000, 100)]]

@@ -20,16 +20,16 @@
         <data name="rotation" type="coord3d" required="true" default="0,0,0" />
         <data name="interior" type="integer" required="true" default="0" />
         <data name="dimension" type="integer" required="true" default="0" />
-        <object model="1776" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
-        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1" posZ="-1.1"  interior="!interior!" dimension="!dimension!" />
+        <object model="956" position="!position!" posZ="0.39" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1"  interior="!interior!" dimension="!dimension!" />
     </element>
     <element name="candy_machine_dirty" friendlyname="Candy Machine (dirty)" instructions="A dirty candy machine.">
         <data name="position" type="coord3d" required="true" default="0,0,0" />
         <data name="rotation" type="coord3d" required="true" default="0,0,0" />
         <data name="interior" type="integer" required="true" default="0" />
         <data name="dimension" type="integer" required="true" default="0" />
-        <object model="956" position="!position!" posZ="0.39" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
-        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1"  interior="!interior!" dimension="!dimension!" />
+        <object model="1776" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1" posZ="-1.1" interior="!interior!" dimension="!dimension!" />
     </element>
     <element name="soda_machine" friendlyname="Soda Machine" instructions="A generic soda machine (first variant).">
         <data name="position" type="coord3d" required="true" default="0,0,0" />
@@ -47,12 +47,31 @@
         <object model="1302" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
         <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1"  interior="!interior!" dimension="!dimension!" />
     </element>
-    <element name="vending_machine" friendlyname="Snack Machine" instructions="A generic vending machine (warning: missing rear panel texture).">
+    <element name="chilli_dog_cart" friendlyname="Chilli Dog Cart" instructions="A chilli dog cart.">
         <data name="position" type="coord3d" required="true" default="0,0,0" />
         <data name="rotation" type="coord3d" required="true" default="0,0,0" />
         <data name="interior" type="integer" required="true" default="0" />
         <data name="dimension" type="integer" required="true" default="0" />
-        <object model="1302" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
-        <marker type="cylinder" size="0.5" color="#FF0000C6" posY="-1"  interior="!interior!" dimension="!dimension!" />
+        <object model="1340" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posX="1" posZ="-1.1"  interior="!interior!" dimension="!dimension!" />
+        <ped model="168" frozen="true" posX="-1" posZ="-0.2" rotZ="270" interior="!interior!" dimension="!dimension!" />
+    </element>
+    <element name="ice_cream_cart" friendlyname="Ice Cream Cart" instructions="An ice cream cart.">
+        <data name="position" type="coord3d" required="true" default="0,0,0" />
+        <data name="rotation" type="coord3d" required="true" default="0,0,0" />
+        <data name="interior" type="integer" required="true" default="0" />
+        <data name="dimension" type="integer" required="true" default="0" />
+        <object model="1341" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posX="1" posY="-0.35" posZ="-1.1"  interior="!interior!" dimension="!dimension!" />
+        <ped model="264" frozen="true" posX="-1" posY="-0.35" rotZ="270" interior="!interior!" dimension="!dimension!" />
+    </element>
+    <element name="noodle_cart" friendlyname="Noodle Cart" instructions="A noodle cart.">
+        <data name="position" type="coord3d" required="true" default="0,0,0" />
+        <data name="rotation" type="coord3d" required="true" default="0,0,0" />
+        <data name="interior" type="integer" required="true" default="0" />
+        <data name="dimension" type="integer" required="true" default="0" />
+        <object model="1342" position="!position!" rotation="!rotation!" interior="!interior!" dimension="!dimension!" />
+        <marker type="cylinder" size="0.5" color="#FF0000C6" posX="1" posY="-0.1" posZ="-1.1" interior="!interior!" dimension="!dimension!" />
+        <ped model="209" frozen="true" posX="-1" posY="-0.1" posZ="-0.2" rotZ="270" interior="!interior!" dimension="!dimension!" />
     </element>
 </def>

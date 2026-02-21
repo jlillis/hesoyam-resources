@@ -1,0 +1,4 @@
+-- Server configuration settings
+_config = {
+    startingCash = 10000 -- Amount of cash new characters spawn with
+}

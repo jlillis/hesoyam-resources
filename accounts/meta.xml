@@ -1,0 +1,32 @@
+<meta>
+    <info name="accounts" version="1.0.0" type="script"/>
+    <include resource="database" minversion="1.0.0"/>
+    <download_priority_group>10</download_priority_group>
+
+    <!-- Server scripts & export functions -->
+    <script src="server/config.lua"/>
+    <script src="server/utils.lua"/>
+    <script src="server/main.lua"/>
+    <script src="server/requests.lua"/>
+    <script src="server/lockout.lua"/>
+    <script src="server/login.lua"/>
+    <script src="server/logout.lua"/>
+    <script src="server/registration.lua"/>
+    <script src="server/tokens.lua"/>
+    <export function="isPlayerLoggedIn" type="server"/>
+    <export function="getPlayerAccountID" type="server"/>
+
+    <!-- Client scripts & export functions -->
+    <script src="client/main.lua" type="client"/>
+    <script src="client/requests.lua" type="client"/>
+    <script src="client/login.lua" type="client"/>
+    <script src="client/logout.lua" type="client"/>
+    <script src="client/registration.lua" type="client"/>
+    <script src="client/tokens.lua" type="client"/>
+    <export function="isPlayerLoggedIn" type="client"/>
+    <export function="getPlayerAccountID" type="client"/>
+    <export function="sendLoginRequest" type="client"/>
+    <export function="sendLogoutRequest" type="client"/>
+    <export function="sendRegistrationRequest" type="client"/>
+    <export function="sendTokenRequest" type="client"/>
+</meta>
